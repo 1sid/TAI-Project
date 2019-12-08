@@ -1,0 +1,110 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #34ebc3;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+
+#custom-container{
+  
+  border: 1px black;
+  padding: 0px;
+}
+  
+
+
+#header-nav {
+background-color: red;
+border-radius: 0;
+border: 0;
+background-color: #222!important;
+}
+
+#logo-img {
+	background-color: grey;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-decoration: none;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-custom a
+{
+  color: white!important;
+}
+.custom-toggler {
+
+
+}
+
+#main-content{
+  margin-top: 20px;
+}
+
+#video-tile{
+  background-color: white;
+  
+}
+.padding-reset{
+
+padding: 0px;
+}
+
+#video-scroll
+{
+  /*padding: 0% 1% 0% 3.5%;*/
+  height: 400px;
+    background-color: white;
+  padding: 0px;
+}
+
+#address-map{
+
+  background: white;
+  color: black;
+  margin-top: 30px;
+}
+
+#address{
+  
+  
+}
+
+#custom-text{
+  margin-top: 30px;
+  padding: 15px;
+  background-color: white;
+  color: black;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
