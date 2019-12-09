@@ -56,8 +56,12 @@ background-color: #222!important;
 {
   color: white!important;
 }
-.custom-toggler {
+.custom-toggler 
 
+.button-custom{
+
+background-color: white;
+/*color: white;*/
 
 }
 
