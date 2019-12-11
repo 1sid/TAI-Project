@@ -22,6 +22,12 @@ border: 0;
 background-color: #222!important;
 }
 
+#navbar-header-custom{
+  width: 100%;
+
+
+}
+
 #logo-img {
 	background-color: grey;
 	border-radius: 50%;
@@ -47,6 +53,19 @@ background-color: #222!important;
   line-height: .75;
   text-decoration: none;
 
+}
+
+.login-custom {
+  float: right;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  margin-left: 250px;
+  list-style-type: none;
+  line-height: .75;
+}
+
+.login-custom a{
+  margin-left: 10px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
