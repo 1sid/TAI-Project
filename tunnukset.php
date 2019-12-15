@@ -18,7 +18,7 @@
          <h3>Password reset</h3>
 				 <input type="text" name="sposti" placeholder="Email" required><br>
 				 <input type="submit" id="nappi" name="nappi" value="Send">
-         <a href="index.php">Cancel</a>
+         <a href="index.html">Cancel</a>
             </div>
 			</form>	
 		</div>
