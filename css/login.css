@@ -1,0 +1,66 @@
+.container{
+	margin-top: 5%;
+	margin: 0 auto;
+	width: 30%;
+	min-width: 500px;
+}
+
+img{
+	border-radius: 50%;	
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	/*margin-left: 40%;*/
+	margin-bottom: -20px;
+	
+}
+
+div > h3{
+	margin: 0px;
+	text-align: center;
+}
+
+#custom-log {
+	background-color: white;
+	min-width: 400px;
+	margin: 0 auto;
+	padding: 15px;
+	line-height: 50px;
+	font-size: 24px; 
+	text-align: center;
+	
+}
+#outer-box{
+	width: 350px;
+	margin: 0 auto;
+	padding: 15px;
+	border: 1px solid #5e606a;	
+	box-shadow: 10px 10px 5px grey;
+}
+
+form
+{
+	font-size: 16px;
+}
+#content {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#nappi{
+	height: 40px;
+	width: 80px;
+}
+
+.input
+{
+	height: 30px;
+	font-size: 14px;
+}
+
+
+.icon_wrapper a img{
+   
+   height: 1.5em;
+   

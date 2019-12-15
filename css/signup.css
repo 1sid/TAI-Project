@@ -1,0 +1,99 @@
+.container{
+	margin-top: 5%;
+	margin: 0 auto;
+	width: 30%;
+	min-width: 500px;
+	padding: 15px;
+	line-height: 50px;
+	font-size: 24px; 
+	text-align: center;
+}
+
+img{
+	border-radius: 50%;	
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	/*margin-left: 40%;*/
+	margin-bottom: -20px;
+	
+}
+
+div > h3{
+	margin: 0px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+/*#custom-log {
+	background-color: white;
+	min-width: 400px;
+	margin: 0 auto;
+	padding: 15px;
+	line-height: 50px;
+	font-size: 24px; 
+	text-align: center;
+	
+}*/
+#form-layout{
+	width: 350px;
+	margin: 0 auto;
+	padding: 15px;
+	border: 1px solid #5e606a;	
+	box-shadow: 10px 10px 5px grey;
+	text-align: center;
+}
+
+form
+{
+	font-size: 16px;
+}
+/*#content {
+	width: 300px;
+	margin: 0 auto;
+	
+}*/
+
+input {
+  
+  width: 10em;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 3%;
+ 
+  }
+
+#label {
+  
+   position: relative;
+
+  
+ }
+
+ #label > text{
+ 	position: absolute;
+ 	top: 27px;
+ 	left: 33px;
+ 	margin-bottom: 2px;
+ }
+
+#label input{
+	width: 22em;
+		
+}
+
+#rest{
+
+	margin-top: 15px;
+}
+
+form a{
+	margin-left: 50px;
+}
+
+
+
+.icon_wrapper a img{
+   
+   height: 1.5em;
+   

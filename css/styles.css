@@ -59,13 +59,17 @@ background-color: #222!important;
   float: right;
   padding-right: .5rem;
   padding-left: .5rem;
-  margin-left: 250px;
+  margin-left: 38%;
+  margin-top: 25px;
+  font-size: 1.5em;
   list-style-type: none;
   line-height: .75;
+  position: relative;
 }
 
 .login-custom a{
   margin-left: 10px;
+
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -75,7 +79,10 @@ background-color: #222!important;
 {
   color: white!important;
 }
-.custom-toggler 
+
+.custom-toggler {
+  margin-left: 10px;
+}
 
 .button-custom{
 
@@ -132,3 +139,20 @@ padding-right: 10px;
   background-color: #222;
   border-top: 0;
 }
+
+.icon_wrapper {
+    position: fixed;
+    top: 25%;
+    left: 2px;
+    z-index: 99999;
+    box-shadow: 2px 2px 5px 2px white;
+
+    
+}
+
+.icon_wrapper a img{
+  
+  display: block;
+   height: 2.5em;
+   margin-bottom: 3px;
+   
