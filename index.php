@@ -1,3 +1,28 @@
+
+<?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+include 'yhteys.php'; 
+
+$kt = $_SESSION["kt"];
+
+
+
+if ($kt <> '')
+{ 
+  $haku = $conn->prepare("SELECT id, username FROM $db.userinfo where id=:rivi");
+  $haku->execute(array(':rivi' =>$kt));
+  $c=0;
+ $ha = $haku->fetch(PDO::FETCH_ASSOC);
+
+    $c_username = $ha['username'];
+    
+  
+
+ ?>  
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,6 +32,7 @@
     <title>Smart Integration</title>
     <script type="text/javascript" src="https://www.youtube.com/player_api"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -20,13 +46,18 @@
                    </a>
 
                    <a class="navbar-brand" href="index.html"><h1>Smart Integration</h1></a>
-                   <ul class="login-custom">
-                     <li>
-                        <a href="login.php"> Login </a>
-                        <a href="signup.php"> Register </a>
-                      </li>
+                   <ul class="login-after">
+                          <script>
+                            $(document).ready(function() { }
+                           </script>
+                    
+                          <?php
+                         echo "<h3> Welcome:&nbsp".$c_username."</h3>";}?>
+                    <li><a href="index.html">Logout</a></li>
                      
                    </ul>
+                   
+
                    
 
                   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
