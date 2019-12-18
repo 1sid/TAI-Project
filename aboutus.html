@@ -9,6 +9,7 @@
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
   </head>
   <body>
     <header>
@@ -35,8 +36,8 @@
                   
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav navbar-custom">
-                         <a class="nav-item nav-link active " href="#">Home <span class="sr-only">(current)</span></a>
-                           <a class="nav-item nav-link" href="aboutus.html"> About US</a>
+                         <a class="nav-item nav-link active " href="index.html">Home <span class="sr-only">(current)</span></a>
+                           <a class="nav-item nav-link" href="aboutus.html"> About Us</a>
                            <a class="nav-item nav-link" href="#">What we do</a>
                                    <a class="nav-item nav-link" href="#">More</a>
 
@@ -47,47 +48,83 @@
         </div>
       </nav>
    </header>
+
     <div id="main-content" class="container">
-          <div id="video-tile" class="row">
+          <div class="row">            
 
-              <div class="col-lg-8 col-md-10 col-sm-12 padding-reset">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div id="about-custom">
+                   <img src=images/marja.jpg>
+                   <h2> Marja Koivusalo </h2>
+                   <section><a href="https://www.facebook.com/marja.koivusalo" target="_blank">
+              <img src="images/facebook.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/pratteek-saxena/" target="_blank">
+              <img src="images/linkedin.svg">
+            </a></section>
+            </div>
+             </div>
 
-                <iframe id="player" width=100% height="400" src="https://www.youtube.com/embed/19Z6oGoslXs?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-              </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div id="about-custom">
+                  <img src=images/pic.jpeg>
+                   <h2> Prateek Saxena  </h2>
+                   <section><a href="https://www.facebook.com/sid.cr" target="_blank">
+              <img src="images/facebook.svg">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="images/linkedin.svg">
+            </a></section>
+            </div>
+            </div>
 
-              <div class="col-lg-4 col-md-2 col-sm-12 overflow-auto" id="video-scroll">
 
-                <iframe id="player2" width=100%  src="https://www.youtube.com/embed/rGItpuZFGg4?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <iframe id="player3" width=100%  src="https://www.youtube.com/embed/BZJb_S96Q7w?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <iframe id="player4" width=100% src="https://www.youtube.com/embed/khMzXxZvryw?rel=0&wmode=Opaque&enablejsapi=1;showinfo=0;controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                <iframe width=100% src="https://www.youtube.com/embed/wFMz-AZjaBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-              </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div id="about-custom">
+                    <img src=images/gior.jpg>
+                   <h2> Giorgos Nearchou </h2>
+                   <section><a href="" target="_blank">
+              <img src="images/facebook.svg">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <img src="images/linkedin.svg">
+            </a></section>
+            </div>
           </div>
-
-          <div class="row" id="custom-text">
-                  <div class="col-lg-12">
-                        <h2>Welcome to Smart Integration</h2>
+          
+        </div>
+        <div class="row" id="aboutus-row2">
+                    <div class="col-lg-6 col-md-12 col-sm-12" >
+                        <div id="story-custom">
+                        <h2>Our Story</h2>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullalaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitvoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidanon proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
+                        </div>
                     </div>
-          </div> 
-      
 
-          <div class="row" id="address-map">
-            
+                        <div class="col-lg-6 col-md-6 col-sm-12" id="con-custom">
 
+                          <h2>Contact Us</h2>
+                          <div id="form-layout">
+
+                    
               
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.1561267794439!2d22.255277492231105!3d60.4591456523163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x963a196363e9ec5!2sMidsommarkullens%20skolhus%20%7C%20%C3%85bo%20yrkesinstitut!5e0!3m2!1sen!2sfi!4v1575816018196!5m2!1sen!2sfi" width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-              
-          </div>
-            
-          
+                          <input  type="text" name="name" placeholder="Your Name" required><br> <br> 
+                          
+                           <input type="Email" name="email" placeholder="Email" required><br> <br> 
+                          
+                          <textarea placeholder="Message" rows="8" cols="38">Message </textarea>   <br><br> 
+                          
+                          <input id="button" type="submit" name="save" id="save" value="Send">
+                      </div>
+                      </div>
+            </div>
+                        
+
+        
+
 
       </div>
 
@@ -112,7 +149,7 @@
               <section id="" class="col-sm-4">
                 <h2>Newsletter</h2><br>
                Subscribe to get
-                the latest<br> news and information. <br>
+                the latest<br> news and information.
                 <input type="Email" name="email" placeholder="Email" required><br> <br>
                 <input id="button" type="submit" name="Subscribe" value="Subscribe">
                 

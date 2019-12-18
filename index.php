@@ -67,7 +67,7 @@ if ($kt <> '')
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav navbar-custom">
                          <a class="nav-item nav-link active " href="#">Home <span class="sr-only">(current)</span></a>
-                           <a class="nav-item nav-link" href="#"> About Us</a>
+                           <a class="nav-item nav-link" href="aboutus.html"> About Us</a>
                            <a class="nav-item nav-link" href="#">What we do</a>
                                    <a class="nav-item nav-link" href="#">More</a>
 
@@ -101,25 +101,23 @@ if ($kt <> '')
           </div>
       
 
-          <div class="row" id="address-map">
-              <div class="col-lg-3 col-md-4 col-sm-12">
-                        <p class="address" id="address"><h2>Address</h2>aslkdjaoidna ioapjflkasdnfklds <br> sdalfjsdlkfnlaksjfslkfmalskjfl
-                          <br> sakmfslödafmlksdj
-                        </p>
-              </div>
-
-              <div class="col-lg-9 col-md-8 col-sm-12">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.1561267794439!2d22.255277492231105!3d60.4591456523163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x963a196363e9ec5!2sMidsommarkullens%20skolhus%20%7C%20%C3%85bo%20yrkesinstitut!5e0!3m2!1sen!2sfi!4v1575816018196!5m2!1sen!2sfi" width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-              </div>
-          </div>
-            
           <div class="row" id="custom-text">
                   <div class="col-lg-12">
+                    <h2>Welcome to Smart Integration</h2>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullalaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderitvoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidanon proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
           </div> 
+      
+
+          <div class="row" id="address-map">
+            
+
+              
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967.1561267794439!2d22.255277492231105!3d60.4591456523163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x963a196363e9ec5!2sMidsommarkullens%20skolhus%20%7C%20%C3%85bo%20yrkesinstitut!5e0!3m2!1sen!2sfi!4v1575816018196!5m2!1sen!2sfi" width="100%" height="200px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              
+          </div>
 
       </div>
 
@@ -127,16 +125,26 @@ if ($kt <> '')
           <div class="container">
             <div class="row">
               <section id="hours" class="col-sm-4">
-                <span>Opening Hours:</span><br>
+                <h2>Opening Hours:</h2><br>
                 Monday-Fri: 9am - 4pm<br>
                 Saturday : 11:15am - 2:30pm<br>
                 Sunday Closed
                 <hr class="visible-xs">
               </section>
               <section id="" class="col-sm-4">
-                <span>Contact Us:</span><br>
+                <h2>Contact Us:</h2><br>
                Juhannuskukkula<br>
                 Turku, 20750
+                
+                <hr class="visible-xs">
+              </section>
+
+              <section id="" class="col-sm-4">
+                <h2>Newsletter</h2><br>
+               Subscribe to get
+                the latest<br> news and information.
+                <input type="Email" name="email" placeholder="Email" required><br> <br>
+                <input id="button" type="submit" name="Subscribe" value="Subscribe">
                 
                 <hr class="visible-xs">
               </section>
