@@ -235,6 +235,11 @@ margin: 0 auto;
 margin-left: 0px;
  }
 
+ #story-custom p{
+  line-height: 240%;
+  font-size: 18px;
+ }
+
 #form-layout{
   width: 500px;
   margin: 0 auto;
